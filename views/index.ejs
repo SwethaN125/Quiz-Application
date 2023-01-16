@@ -1,0 +1,49 @@
+<%- include('partials/header'); -%>
+<section>
+  <form class="questions" action="/" method="post">
+
+    <label><h3>Please enter your name: </h3></label>
+    <input type="text" name="name" placeholder="Your name">
+    <div class="q1">
+      <h3>1.Which Indian city is known as "Blue city" ?</h3>
+      <input type="radio" name="q1" value="0"><label>a)Udaipur</label>
+      <input type="radio" name="q1" value="0"><label>b)Jaisalmer</label>
+      <input type="radio" name="q1" value="0"><label>c)Jaipur</label>
+      <input type="radio" name="q1" value="1"><label>d)Jodhpur</label>
+    </div>
+    <!--Virat Kohli -->
+    <div class="q2">
+      <h3>2."Giddha" is the folk dance of which state of India?</h3>
+      <input type="radio" name="q2" value="0"><label>a)Gujarat</label>
+      <input type="radio" name="q2" value="1"><label>b)Punjab</label>
+      <input type="radio" name="q2" value="0"><label>c)Rajasthan</label>
+      <input type="radio" name="q2" value="0"><label>d)Haryana</label>
+    </div>
+<!-- Punjab -->
+    <div class="q3">
+      <h3>3.What is Phycology ?</h3>
+      <input type="radio" name="q3" value="1"><label>a)Study of Algae</label>
+      <input type="radio" name="q3" value="0"><label>b)Study of Plants</label>
+      <input type="radio" name="q3" value="0"><label>c)Study of Bacteria</label>
+      <input type="radio" name="q3" value="0"><label>d)Study of Fungi</label>
+    </div>
+<!-- Study of Algae -->
+    <div class="q4">
+      <h3>4.When was the first general election held in India ?</h3>
+      <input type="radio" name="q4" value="0"><label>a)1950</label>
+      <input type="radio" name="q4" value="1"><label>b)1951</label>
+      <input type="radio" name="q4" value="0"><label>c)1952</label>
+      <input type="radio" name="q4" value="0"><label>d)1955</label>
+    </div>
+<!-- 1951 -->
+    <div class="q5">
+      <h3>5.Who discovered the symbol "♾️"?</h3>
+      <input type="radio" name="q5" value="0"><label>a)Pythagoras</label>
+      <input type="radio" name="q5" value="0"><label>b)Archimedes</label>
+      <input type="radio" name="q5" value="1"><label>c)John Wallis</label>
+      <input type="radio" name="q5" value="0"><label>d)Leonhard Euler</label>
+    </div>
+<!--John Wallis -->
+<a href="/submit"><button type="submit" class="btn btn-primary">Submit</button></a>
+  </form>
+<%- include('partials/footer'); -%>

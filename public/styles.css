@@ -1,0 +1,51 @@
+body{
+  align-items: center;
+  justify-content: center;
+  background-color: #F0E5CF;
+}
+ h1{
+  color:#515ecf;
+  font-size: 3rem;
+  font-family: cursive;
+  padding:2.5%;
+}
+h3{
+  color:purple;
+  font-size: 1rem;
+  font-family:serif;
+}
+p{
+  color: #d92e7f;
+  font-size: 1.25rem;
+  font-family: sans-serif;
+}
+form{
+  padding: 5% 5%;
+  padding-top: 1.25%;
+  padding-bottom: 1.25%;
+}
+q1,q2,q3,q4,q5{
+  padding: 2%;
+}
+label{
+  color:#091836;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+input, label{
+  padding: 0.5% 2% 0.5% 0.5%;
+}
+button{
+  outline-color: powderblue;
+  width: 17.5%;
+  margin-left: 15%;
+}
+button:hover{
+  background-color: #7EB5A6;
+}
+.link1{
+  color: #986D8E;
+  text-align: left;
+  font-size: 1rem;
+  padding:2.5%;
+}

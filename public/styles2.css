@@ -1,0 +1,32 @@
+body{
+  align-items: center;
+  justify-content: center;
+  background-color: #F0E5CF;
+  text-align: center;
+}
+ h1{
+  color:#515ecf;
+  font-size: 3rem;
+  font-family: cursive;
+  padding:2.5%;
+}
+
+.submit{
+  margin: 5%;
+  padding-top: 2.5%;
+  background-color: #fff;
+  color: #d92e7f;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+h4{
+  color:#515ecf;
+  font-size: 1.75rem;
+  font-family: serif;
+}
+
+.link1{
+  padding-top: 1%;
+  color: #986D8E;
+  font-size: 1rem;
+}
